@@ -1,0 +1,13 @@
+! -*- ripd -*-
+
+!
+hostname R3-ripd
+password en
+enable password en
+!
+router rip
+ network 3.3.3.0/24
+ network R3-eth1
+!
+line vty
+!
